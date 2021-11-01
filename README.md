@@ -14,7 +14,7 @@
 
 - Twitter: [@AtashiSaman](https://twitter.com/AtashiSaman)
 - GitHub: [@SamanAtashi](https://github.com/SamanAtashi)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/saman-atashi-9539911b0)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/saman-atashi/)
 
 ## 🤝 Contributing
 
