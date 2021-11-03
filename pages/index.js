@@ -4,7 +4,7 @@ export default function Main() {
 	return (
 		<div className="bg-Primary w-screen h-screen text-Secondary px-10vw relative">
 			<Navbar />
-			{/* <Home /> */}
+			<Home />
 		</div>
 	);
 }
