@@ -2,7 +2,9 @@ const Contact = () => {
 	return (
 		<section>
 			<article>
-				<header>Hello.</header>
+				<header className="text-Secondary_Light text-3xl font-semibold font-Bodoni">
+					<span className="highlight">Hello.</span>
+				</header>
 				<ul>
 					<li>
 						<a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=milady00126@gmail.com">
