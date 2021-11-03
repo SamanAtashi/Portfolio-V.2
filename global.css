@@ -3,3 +3,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+	.highlight {
+		background: linear-gradient(to top, #b4bd32 35%, transparent 0%);
+	}
+}
