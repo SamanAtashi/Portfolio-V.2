@@ -1,7 +1,7 @@
 const Home = () => {
 	return (
 		<section className="text-Secondary text-[1.2rem] leading-7 font-Montserratss">
-			<article className="md:p-16">
+			<article className="">
 				<header className="my-3.5">
 					Hey, I'm{' '}
 					<span className="text-Secondary_Light font-semibold">
