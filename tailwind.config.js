@@ -39,6 +39,16 @@ module.exports = {
 			padding: {
 				'10vw': '10vw',
 			},
+			height: {
+				'100vh': '100vh',
+			},
+			width: {
+				'100vh': '100vh',
+			},
+			scale: {
+				'11': '-1',
+				'12': '1',
+			},
 		},
 	},
 	variants: {
