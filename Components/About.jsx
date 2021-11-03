@@ -1,6 +1,9 @@
 const About = () => {
 	return (
 		<section className="font-Montserratss">
+			<header className="text-Secondary_Light text-3xl font-semibold font-Bodoni">
+				<span className="highlight">About</span>
+			</header>
 			<article>
 				<p>
 					Studied medicine for four years, problem-solver,
@@ -22,22 +25,7 @@ const About = () => {
 						<li>Responsive Design</li>
 					</ul>
 				</article>
-				<article className="my-4 ">
-					<header className="font-Bodoni text-xl tracking-widest  text-Secondary_Light font-bold">
-						Experiences
-					</header>
-					<ul>
-						<li>
-							<div>
-								<p>Student at:</p>
-								<a href="https://www.microverse.org/">
-									Microverse
-								</a>
-							</div>
-							<p> March 2021 - Present</p>
-						</li>
-					</ul>
-				</article>
+				
 			</div>
 		</section>
 	);
