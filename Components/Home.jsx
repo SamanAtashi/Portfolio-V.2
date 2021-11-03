@@ -12,7 +12,7 @@ const Home = () => {
 				<p>
 					I'm a{' '}
 					<span className="text-Secondary_Light font-semibold">
-						Full-Stack
+						FrontEnd
 					</span>{' '}
 					developer who loves solving everyday life's
 					problems with code.
