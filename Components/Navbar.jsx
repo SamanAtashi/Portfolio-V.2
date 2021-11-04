@@ -1,3 +1,5 @@
+import color from "../Assets/color";
+
 const Navbar = () => {
 	return (
 		<div className="flex justify-between items-center font-light text-sm tracking-[0.2rem] md:fixed md:bottom-0 md:left-0 md:-rotate-90 md:origin-top-left md:w-100vh md:translate-x-11 md:translate-y-14 md:pl-8 md:pr-14">
@@ -11,7 +13,7 @@ const Navbar = () => {
 			</div>
 			<p className="w-1/6">
 				{' '}
-				&copy;/<span className="tracking-wide">21</span>
+				&copy;{color(4)}<span className="tracking-wide">21</span>
 			</p>
 		</div>
 	);

@@ -1,4 +1,5 @@
 import React from 'react';
+import color from '../../Assets/color';
 import Project from './Project';
 
 class Projects extends React.Component {
@@ -75,6 +76,20 @@ class Projects extends React.Component {
 				<header className="text-Secondary_Light text-5xl font-semibold font-Bodoni">
 					<span>My Work</span>
 				</header>
+				<div className="mt-8 italic font-light">
+					<p>
+						<span class="relative inline-flex rounded-full h-3 w-3 bg-yellow-500">
+							<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-yellow-500 opacity-75"></span>
+						</span>{' '}
+						{color(3)} In Progress
+					</p>
+					<p>
+						<span class="relative inline-flex rounded-full h-3 w-3 bg-green-500">
+							<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-500 opacity-75"></span>
+						</span>{' '}
+						{color(3)} Done
+					</p>
+				</div>
 				{this.projectsList}
 			</section>
 		);

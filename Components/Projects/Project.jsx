@@ -1,5 +1,4 @@
 import { ExternalLinkIcon, CodeIcon } from '@heroicons/react/outline';
-import color from '../../Assets/color';
 
 const Project = (props) => {
 	const stacks = () => {
