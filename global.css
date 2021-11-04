@@ -6,6 +6,6 @@
 
 @layer utilities {
 	.highlight {
-		background: linear-gradient(to top, #b4bd32 35%, transparent 0%);
+		background: linear-gradient(to top, #b4bd32 5%, transparent 0%);
 	}
 }

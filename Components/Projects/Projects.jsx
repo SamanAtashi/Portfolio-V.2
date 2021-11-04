@@ -14,8 +14,8 @@ class Projects extends React.Component {
 				stack: [
 					'Next',
 					'FireBase v9',
-					'TailWind CSS',
 					'Recoil',
+					'TailWind CSS',
 				],
 				url: 'https://github.com/SamanAtashi/instagram-clone',
 				githubUrl:
@@ -71,9 +71,9 @@ class Projects extends React.Component {
 
 	render() {
 		return (
-			<section className="">
-				<header className="text-Secondary_Light text-3xl font-semibold font-Bodoni">
-					<span className="highlight">
+			<section className="mt-12">
+				<header className="text-Secondary_Light text-5xl font-semibold font-Bodoni">
+					<span>
 						My Work
 					</span>
 				</header>
