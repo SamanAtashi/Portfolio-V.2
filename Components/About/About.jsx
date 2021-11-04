@@ -1,5 +1,6 @@
-import color from '../Assets/color';
+import color from '../../Assets/color';
 import { ImQuotesLeft, ImQuotesRight } from 'react-icons/im/';
+import Skills from './Skills';
 
 const About = () => {
 	return (
@@ -80,22 +81,7 @@ const About = () => {
 					</div>
 				</p>
 			</article>
-			<div className="sm:flex sm:justify-between">
-				<article className="my-4 ">
-					<header className="font-Bodoni text-xl tracking-widest  text-Secondary_Light font-bold">
-						Skills
-					</header>
-					<ul>
-						<li>JavaScript</li>
-						<li>React,Redux</li>
-						<li>HTML,CSS</li>
-						<li>Ruby</li>
-						<li>Git,Github</li>
-						<li>TDD,RSpec</li>
-						<li>Responsive Design</li>
-					</ul>
-				</article>
-			</div>
+			<Skills />
 		</section>
 	);
 };

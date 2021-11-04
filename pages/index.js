@@ -1,4 +1,4 @@
-import About from '../Components/About';
+import About from '../Components/About/About';
 import Contact from '../Components/Contacts';
 import Home from '../Components/Home';
 import Navbar from '../Components/Navbar';
