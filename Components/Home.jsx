@@ -4,6 +4,9 @@ const Home = () => {
 		<section className="text-Secondary text-[1.2rem] leading-7 font-Montserratss mt-8">
 			<article>
 				<header className="mb-3.5">
+					{/* <span className="text-red-500 colored">
+						.
+					</span> */}
 					Hey{color(1)} I{color(2)}m{' '}
 					<span className="text-Secondary_Light font-semibold">
 						Saman
