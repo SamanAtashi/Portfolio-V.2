@@ -4,15 +4,15 @@ import Skills from './Skills';
 
 const About = () => {
 	return (
-		<section className="font-Montserratss">
+		<section className="font-Montserratss mt-12">
 			<header className="text-Secondary_Light text-5xl font-semibold font-Bodoni">
 				<span>About</span>
 			</header>
 			<article className="my-8 font-Montserratss">
 				<p>
-					<div className="inline-block">
+					<span className="inline-block">
 						<ImQuotesLeft className="text-Tertiary text-xl" />
-					</div>{' '}
+					</span>{' '}
 					I{color(2)}m a{' '}
 					<span className="font-bold text-Secondary_Light my_underline">
 						Software Developer
@@ -76,9 +76,9 @@ const About = () => {
 						Proactivity
 					</span>
 					{color()}{' '}
-					<div className="inline-block">
+					<span className="inline-block">
 						<ImQuotesRight className="text-Tertiary text-xl" />
-					</div>
+					</span>
 				</p>
 			</article>
 			<Skills />

@@ -60,6 +60,7 @@ class Projects extends React.Component {
 	projectsList = this.state.myProject.map((project) => {
 		return (
 			<Project
+				key={project.id}
 				name={project.name}
 				desc={project.description}
 				status={project.status}
@@ -78,14 +79,14 @@ class Projects extends React.Component {
 				</header>
 				<div className="mt-8 italic font-light">
 					<p>
-						<span class="relative inline-flex rounded-full h-3 w-3 bg-red-600">
-							<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-300 opacity-75"></span>
+						<span className="relative inline-flex rounded-full h-3 w-3 bg-red-600">
+							<span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-300 opacity-75"></span>
 						</span>{' '}
 						{color(3)} In Progress
 					</p>
 					<p>
-						<span class="relative inline-flex rounded-full h-3 w-3 bg-green-500">
-							<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-300 opacity-75"></span>
+						<span className="relative inline-flex rounded-full h-3 w-3 bg-green-500">
+							<span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-300 opacity-75"></span>
 						</span>{' '}
 						{color(3)} Done
 					</p>

@@ -2,18 +2,22 @@ import { ExternalLinkIcon, CodeIcon } from '@heroicons/react/outline';
 
 const Project = (props) => {
 	const stacks = () => {
-		return props.stack.map((item) => <li className="mr-3">#{item}</li>);
+		return props.stack.map((item) => (
+			<li key={item + 'Id'} className="mr-3">
+				#{item}
+			</li>
+		));
 	};
 	let circle = (
-		<span class="relative inline-flex rounded-full h-3 w-3 bg-red-600">
-			<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-300 opacity-75"></span>
+		<span className="relative inline-flex rounded-full h-3 w-3 bg-red-600">
+			<span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-300 opacity-75"></span>
 		</span>
 	);
 
 	if (props.status == 'Done') {
 		circle = (
-			<span class="relative inline-flex rounded-full h-3 w-3 bg-green-500">
-				<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-300 opacity-75"></span>
+			<span className="relative inline-flex rounded-full h-3 w-3 bg-green-500">
+				<span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-300 opacity-75"></span>
 			</span>
 		);
 	}
@@ -56,7 +60,7 @@ const Project = (props) => {
 					</a>
 				</div>
 			</div>
-			<span class="absolute -top-0.5 -right-0.5 flex h-3 w-3">
+			<span className="absolute -top-0.5 -right-0.5 flex h-3 w-3">
 				{circle}
 			</span>{' '}
 		</article>
