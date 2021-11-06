@@ -1,9 +1,16 @@
 module.exports = {
-	mode: 'jit',
+	// mode: 'jit',
 	purge: [
 		'./pages/**/*.{js,ts,jsx,tsx}',
 		'./components/**/*.{js,ts,jsx,tsx}',
+		'./components/Projects/**/*.{js,ts,jsx,tsx}',
+		'./components/About/**/*.{js,ts,jsx,tsx}',
 		'./Assets/**/*.{js,ts,jsx,tsx}',
+		'./pages/**/*.js',
+		'./components/**/*.jsx',
+		'./components/Projects/**/*.jsx',
+		'./components/About/**/*.jsx',
+		'./Assets/**/*.js',
 	],
 	darkMode: false, // or 'media' or 'class'
 	theme: {
