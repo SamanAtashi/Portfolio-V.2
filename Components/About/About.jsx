@@ -5,7 +5,7 @@ import Skills from './Skills';
 const About = () => {
 	return (
 		<section className="font-Montserratss mt-12">
-			<header className="text-Secondary_Light text-5xl font-semibold font-Bodoni">
+			<header className="text-Secondary_Light text-5xl font-semibold font-Bodoni sm:text-10vw">
 				<span>About</span>
 			</header>
 			<article className="my-8 font-Montserratss">

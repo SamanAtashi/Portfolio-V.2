@@ -74,7 +74,7 @@ class Projects extends React.Component {
 	render() {
 		return (
 			<section className="mt-12">
-				<header className="text-Secondary_Light text-5xl font-semibold font-Bodoni">
+				<header className=" text-Secondary_Light text-5xl font-semibold font-Bodoni sm:text-10vw">
 					<span>My Work</span>
 				</header>
 				<div className="mt-8 italic font-light">
@@ -91,7 +91,9 @@ class Projects extends React.Component {
 						{color(3)} Done
 					</p>
 				</div>
-				{this.projectsList}
+				<div className="md:grid md:grid-cols-2 md:gap-x-5 md:gap-y-7 md:mt-11">
+					{this.projectsList}
+				</div>
 			</section>
 		);
 	}
