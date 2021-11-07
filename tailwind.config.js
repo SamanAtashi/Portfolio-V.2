@@ -48,6 +48,7 @@ module.exports = {
 				'10vw': '10vw',
 			},
 			padding: {
+				'5%': '5%',
 				'10vw': '10vw',
 			},
 			height: {
@@ -59,6 +60,10 @@ module.exports = {
 			scale: {
 				11: '-1',
 				12: '1',
+			},
+			inset: {
+				'4%': '4%',
+				'2.5%': '2.5%',
 			},
 			dropShadow: {
 				'3xl': '0 35px 35px rgba(0, 0, 0, 0.25)',

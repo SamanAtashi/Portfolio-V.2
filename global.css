@@ -15,8 +15,19 @@
 	.colored {
 		color: #b4bd32;
 	}
+	/* @variants responsive {
+		.rot {
+			transform: rotate(-90deg);
+			transform-origin: left top;
+		}
+	} */
 }
-
+@media (min-width: 768px) {
+	.md\:rot {
+		transform: rotate(-90deg);
+		transform-origin: left top;
+	}
+}
 *::selection {
 	background-color: #dae358;
 	color: #195555;
