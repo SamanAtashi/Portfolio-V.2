@@ -15,6 +15,99 @@
 	.colored {
 		color: #b4bd32;
 	}
+	.contain {
+		border: 1px solid #daf8ee;
+		border-radius: 50%;
+		position: relative;
+
+		/* z-index: 0; */
+
+		width: 320px;
+		height: 320px;
+
+		margin-right: auto;
+		margin-left: auto;
+
+		background-color: #003c3c;
+	}
+
+	.rotate-small {
+		width: 100%;
+		height: 100%;
+
+		/* border: 1px solid #daf8ee; */
+		border-radius: 50%;
+		background-color: transparent;
+
+		position: absolute;
+		top: 0;
+		left: 0;
+
+		z-index: 10;
+
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-timing-function: linear;
+		-webkit-animation-name: orbit;
+		-webkit-animation-duration: 5s;
+		-moz-animation-iteration-count: infinite;
+		-moz-animation-timing-function: linear;
+		-moz-animation-name: orbit;
+		-moz-animation-duration: 5s;
+	}
+
+	.rotate-big {
+		width: 100%;
+		height: 100%;
+
+		/* border: 1px solid blue; */
+		border-radius: 50%;
+		background-color: transparent;
+
+		position: absolute;
+		top: 0;
+		left: 0;
+
+		/* z-index: 10; */
+
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-timing-function: linear;
+		-webkit-animation-name: orbit;
+		-webkit-animation-duration: 15s;
+		-moz-animation-iteration-count: infinite;
+		-moz-animation-timing-function: linear;
+		-moz-animation-name: orbit;
+		-moz-animation-duration: 15s;
+	}
+
+	.small {
+		border: 1px solid #daf8ee;
+		position: absolute;
+		top: 0;
+		left: 65px;
+
+		width: 40px;
+		height: 40px;
+
+		background: #003c3c;
+		border-radius: 50%;
+
+		z-index: 2;
+	}
+
+	.big {
+		border: 1px solid #daf8ee;
+		position: absolute;
+		top: 25px;
+		right: 0;
+
+		width: 80px;
+		height: 80px;
+
+		background: #003c3c;
+		border-radius: 50%;
+
+		/* z-index: 2; */
+	}
 }
 
 *::selection {
@@ -30,13 +123,33 @@
 }
 
 html {
-    overflow: scroll;
-    overflow-x: hidden;
+	overflow: scroll;
+	overflow-x: hidden;
 }
 ::-webkit-scrollbar {
-    width: 0;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
+	width: 0; /* Remove scrollbar space */
+	background: transparent; /* Optional: just make scrollbar invisible */
 }
 ::-webkit-scrollbar-thumb {
-    background: transparent;
+	background: transparent;
+}
+
+@-webkit-keyframes orbit {
+	from {
+		-webkit-transform: rotate(0deg);
+	}
+
+	to {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@-moz-keyframes orbit {
+	from {
+		-moz-transform: rotate(0deg);
+	}
+
+	to {
+		-moz-transform: rotate(360deg);
+	}
 }

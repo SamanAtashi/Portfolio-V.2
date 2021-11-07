@@ -4,8 +4,16 @@ import { FaArrowDown } from 'react-icons/fa';
 
 const Home = () => {
 	return (
-		<section className="text-Secondary text-1.2rem leading-7 font-Montserratss mt-8">
-			<article>
+		<section className="text-Secondary text-1.2rem leading-7 font-Montserratss mt-8 h-100vh flex justify-center flex-col ">
+			<div className="contain">
+				<div className="rotate-small">
+					<div className="small"></div>
+				</div>
+				<div className="rotate-big">
+					<div className="big"></div>
+				</div>
+			</div>
+			<article className="">
 				<header className="mb-3.5">
 					{/* <span className="text-red-500 colored">
 						.
