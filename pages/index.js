@@ -1,8 +1,8 @@
-import About from '../Components/About/About';
-import Contact from '../Components/Contacts';
-import Home from '../Components/Home';
-import Navbar from '../Components/Navbar';
-import Projects from '../Components/Projects/Projects';
+import About from '../components/About/About';
+import Contact from '../components/Contacts';
+import Home from '../components/Home';
+import Navbar from '../components/Navbar';
+import Projects from '../components/Projects/Projects';
 
 export default function Main() {
 	return (
