@@ -15,20 +15,28 @@
 	.colored {
 		color: #b4bd32;
 	}
-	/* @variants responsive {
-		.rot {
-			transform: rotate(-90deg);
-			transform-origin: left top;
-		}
-	} */
 }
+
+*::selection {
+	background-color: #dae358;
+	color: #195555;
+}
+
 @media (min-width: 768px) {
 	.md\:rot {
 		transform: rotate(-90deg);
 		transform-origin: left top;
 	}
 }
-*::selection {
-	background-color: #dae358;
-	color: #195555;
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+::-webkit-scrollbar-thumb {
+    background: transparent;
 }
