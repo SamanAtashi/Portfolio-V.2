@@ -4,7 +4,7 @@ const Contact = () => {
 	return (
 		<section className="font-Montserratss mt-3 mb-4">
 			<article>
-				<header className="text-Secondary_Light text-[17vw] font-semibold font-Bodoni">
+				<header className="text-Secondary_Light text-17vw font-semibold font-Bodoni">
 					<span className="tracking-tighter">Hello{color()}</span>
 				</header>
 				<div>

@@ -64,7 +64,11 @@ module.exports = {
 				'3xl': '0 35px 35px rgba(0, 0, 0, 0.25)',
 			},
 			letterSpacing: {
-				'0.3': '0.3rem',
+				0.3: '0.3rem',
+			},
+			fontSize: {
+				'17vw': '17vw',
+				'1.2rem': '1.2rem',
 			},
 		},
 	},
