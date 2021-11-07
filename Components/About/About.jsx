@@ -9,9 +9,9 @@ const About = () => {
 				<span>About</span>
 			</header>
 			<article className="my-8 font-Montserratss">
-				<p>
+				<p className="sm:text-lg">
 					<span className="inline-block">
-						<ImQuotesLeft className="text-Tertiary text-xl" />
+						<ImQuotesLeft className="text-Tertiary text-xl sm:text-2xl" />
 					</span>{' '}
 					I{color(2)}m a{' '}
 					<span className="font-bold text-Secondary_Light my_underline">
@@ -24,7 +24,7 @@ const About = () => {
 					</span>{' '}
 					years ago{color()}
 				</p>
-				<p className="my-3.5">
+				<p className="my-3.5 sm:text-lg">
 					I love both the{' '}
 					<span className="font-bold text-Secondary_Light my_underline">
 						creative
@@ -48,7 +48,7 @@ const About = () => {
 					</span>{' '}
 					functionality{color()}
 				</p>
-				<p>
+				<p className="sm:text-lg">
 					I am passionate about real-life projects{color(1)}{' '}
 					and in an age of digital{color(1)} I believe
 					solving problems with code is essential{color()}{' '}
@@ -77,7 +77,7 @@ const About = () => {
 					</span>
 					{color()}{' '}
 					<span className="inline-block">
-						<ImQuotesRight className="text-Tertiary text-xl" />
+						<ImQuotesRight className="text-Tertiary text-xl sm:text-2xl" />
 					</span>
 				</p>
 			</article>
