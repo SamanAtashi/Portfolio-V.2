@@ -2,7 +2,7 @@ import color from '../Assets/color';
 
 const Contact = () => {
 	return (
-		<section className="font-Montserratss mt-3 mb-4 ">
+		<section className="font-Montserratss mt-3 mb-6 ">
 			<article>
 				<header className="text-Secondary_Light text-17vw font-semibold font-Bodoni">
                 <span className="tracking-tighter">Hello{color()}</span>
