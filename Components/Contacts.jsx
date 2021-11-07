@@ -7,7 +7,7 @@ const Contact = () => {
 				<header className="text-Secondary_Light text-17vw font-semibold font-Bodoni">
                 <span className="tracking-tighter">Hello{color()}</span>
 				</header>
-				<div>
+				<div className="sm:text-lg">
 					<a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=milady00126@gmail.com">
 						Email{color(7)}{' '}
 						<span className="highlight">
