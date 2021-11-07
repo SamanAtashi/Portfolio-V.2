@@ -4,7 +4,7 @@ import { FaArrowDown } from 'react-icons/fa';
 
 const Home = () => {
 	return (
-		<section className="text-Secondary text-1.2rem leading-7 font-Montserratss mt-8 h-100vh flex justify-center flex-col ">
+		<section className="text-Secondary text-1.2rem leading-7 font-Montserratss mt-8 sm:mt-0 h-100vh flex justify-center items-center flex-col">
 			<div className="contain">
 				<div className="rotate-small">
 					<div className="small"></div>
@@ -14,7 +14,7 @@ const Home = () => {
 				</div>
 			</div>
 			<article className="">
-				<header className="mb-3.5">
+				<header className="mb-3.5 sm:text-2xl">
 					{/* <span className="text-red-500 colored">
 						.
 					</span> */}
@@ -24,7 +24,7 @@ const Home = () => {
 					</span>
 					{color()}
 				</header>
-				<p>
+				<p className="sm:text-2xl">
 					I{color(2)}m a{' '}
 					<span className="text-Secondary_Light font-semibold">
 						FrontEnd
@@ -33,7 +33,7 @@ const Home = () => {
 					{color(2)}s problems with code
 					{color()}
 				</p>
-				<p className="text-sm my-3.5">
+				<p className="text-sm my-3.5 sm:text-base">
 					Currently a student at{' '}
 					<span className="text-Secondary_Light font-semibold">
 						Microverse
