@@ -4,16 +4,16 @@ import { FaArrowDown } from 'react-icons/fa';
 
 const Home = () => {
 	return (
-		<section className="text-Secondary text-1.2rem leading-7 font-Montserratss h-100vh min-h-screen flex flex-col justify-center items-center space-y-6">
-			<div className="contain">
+		<section className="text-Secondary text-1.2rem leading-7 font-Montserratss h-100vh min-h-screen flex flex-col justify-center items-center space-y-6 md:space-y-0 lg:flex-row">
+			<div className="contain lg:order-1 hover:bg-Secondary_Light transition duration-700 ease-in-out">
 				<div className="rotate-small">
-					<div className="small"></div>
+					<div className="small hover:bg-Secondary_Light transition duration-700 ease-in-out"></div>
 				</div>
 				<div className="rotate-big">
-					<div className="big"></div>
+					<div className="big hover:bg-Secondary_Light transition duration-700 ease-in-out"></div>
 				</div>
 			</div>
-			<article>
+			<article className="w-4/6">
 				<header className="mb-3.5 sm:text-2xl">
 					{/* <span className="text-red-500 colored">
 						.

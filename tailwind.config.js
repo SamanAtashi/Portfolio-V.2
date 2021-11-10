@@ -68,6 +68,7 @@ module.exports = {
 			inset: {
 				'4%': '4%',
 				'2.5%': '2.5%',
+				'3.5%': '3.5%',
 			},
 			dropShadow: {
 				'3xl': '0 35px 35px rgba(0, 0, 0, 0.25)',
