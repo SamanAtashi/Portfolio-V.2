@@ -73,7 +73,7 @@ class Projects extends React.Component {
 
 	render() {
 		return (
-			<section className="mt-12">
+			<section>
 				<header className=" text-Secondary_Light text-5xl font-semibold font-Bodoni sm:text-10vw">
 					<span>My Work</span>
 				</header>
