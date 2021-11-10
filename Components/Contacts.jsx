@@ -2,12 +2,12 @@ import color from '../Assets/color';
 
 const Contact = () => {
 	return (
-		<section className="font-Montserratss mt-3 mb-6 ">
+		<section className="font-Montserratss">
 			<article>
 				<header className="text-Secondary_Light text-17vw font-semibold font-Bodoni">
                 <span className="tracking-tighter">Hello{color()}</span>
 				</header>
-				<div className="sm:text-lg">
+				<div className="sm:text-lg lg:-mt-16">
 					<a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=milady00126@gmail.com">
 						Email{color(7)}{' '}
 						<span className="highlight">

@@ -74,10 +74,10 @@ class Projects extends React.Component {
 	render() {
 		return (
 			<section>
-				<header className=" text-Secondary_Light text-5xl font-semibold font-Bodoni sm:text-10vw">
+				<header className=" text-Secondary_Light text-5xl font-semibold font-Bodoni sm:text-10vw lg:text-8vw">
 					<span>My Work</span>
 				</header>
-				<div className="mt-8 italic font-light">
+				<div className="mt-8 italic font-light lg:mt-10">
 					<p>
 						<span className="relative inline-flex rounded-full h-3 w-3 bg-red-600">
 							<span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-300 opacity-75"></span>
