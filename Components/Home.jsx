@@ -4,7 +4,7 @@ import { FaArrowDown } from 'react-icons/fa';
 
 const Home = () => {
 	return (
-		<section className="text-Secondary text-1.2rem leading-7 font-Montserratss h-100vh min-h-100vh flex flex-col justify-center items-center space-y-6">
+		<section className="text-Secondary text-1.2rem leading-7 font-Montserratss h-100vh min-h-screen flex flex-col justify-center items-center space-y-6">
 			<div className="contain">
 				<div className="rotate-small">
 					<div className="small"></div>
@@ -13,7 +13,7 @@ const Home = () => {
 					<div className="big"></div>
 				</div>
 			</div>
-			<article className="">
+			<article>
 				<header className="mb-3.5 sm:text-2xl">
 					{/* <span className="text-red-500 colored">
 						.

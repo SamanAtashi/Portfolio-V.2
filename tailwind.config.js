@@ -53,6 +53,7 @@ module.exports = {
 			},
 			height: {
 				'100vh': '100vh',
+				'1px': '1px',
 			},
 			minHeight: {
 				'100vh': '100vh',
