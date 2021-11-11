@@ -1,5 +1,5 @@
 module.exports = {
-	// mode: 'jit',
+	mode: 'jit',
 	purge: [
 		'./pages/**/*.{js,ts,jsx,tsx}',
 		'./Components/**/*.{js,ts,jsx,tsx}',
@@ -48,9 +48,14 @@ module.exports = {
 				'10vw': '10vw',
 			},
 			padding: {
+				'5%': '5%',
 				'10vw': '10vw',
 			},
 			height: {
+				'100vh': '100vh',
+				'1px': '1px',
+			},
+			minHeight: {
 				'100vh': '100vh',
 			},
 			width: {
@@ -60,13 +65,27 @@ module.exports = {
 				11: '-1',
 				12: '1',
 			},
+			inset: {
+				'4%': '4%',
+				'2.5%': '2.5%',
+				'3.5%': '3.5%',
+			},
 			dropShadow: {
 				'3xl': '0 35px 35px rgba(0, 0, 0, 0.25)',
+			},
+			letterSpacing: {
+				0.3: '0.3rem',
+			},
+			fontSize: {
+				'17vw': '17vw',
+				'8vw': '8vw',
+				'10vw': '10vw',
+				'1.2rem': '1.2rem',
 			},
 		},
 	},
 	variants: {
 		extend: {},
 	},
-	plugins: [],
+	plugins: [require('tailwind-scrollbar-hide')],
 };

@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+* {
+	box-sizing: border-box;
+	cursor: none;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -15,9 +18,232 @@
 	.colored {
 		color: #b4bd32;
 	}
+	.contain {
+		border: 1px solid #daf8ee;
+		border-radius: 50%;
+		position: relative;
+
+		z-index: 1;
+		/* display: none; */
+
+		width: 200px;
+		height: 200px;
+
+		margin-right: 15px;
+		margin-left: auto;
+
+		background-color: #003c3c;
+	}
+
+	.rotate-small {
+		width: 100%;
+		height: 100%;
+
+		/* border: 1px solid #daf8ee; */
+		border-radius: 50%;
+		background-color: transparent;
+
+		position: absolute;
+		top: 0;
+		left: 0;
+
+		z-index: 10;
+
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-timing-function: linear;
+		-webkit-animation-name: orbit;
+		-webkit-animation-duration: 15s;
+		-moz-animation-iteration-count: infinite;
+		-moz-animation-timing-function: linear;
+		-moz-animation-name: orbit;
+		-moz-animation-duration: 15s;
+	}
+
+	.rotate-big {
+		width: 100%;
+		height: 100%;
+
+		/* border: 1px solid blue; */
+		border-radius: 50%;
+		background-color: transparent;
+
+		position: absolute;
+		top: 0;
+		left: 0;
+
+		/* z-index: 10; */
+
+		-webkit-animation-iteration-count: infinite;
+		-webkit-animation-timing-function: linear;
+		-webkit-animation-name: orbit;
+		-webkit-animation-duration: 20s;
+		-moz-animation-iteration-count: infinite;
+		-moz-animation-timing-function: linear;
+		-moz-animation-name: orbit;
+		-moz-animation-duration: 20s;
+	}
+
+	.small {
+		border: 1px solid #daf8ee;
+		position: absolute;
+		top: -10px;
+		left: 65px;
+
+		width: 13%;
+		height: 13%;
+
+		background: #003c3c;
+		border-radius: 50%;
+
+		z-index: 2;
+	}
+
+	.big {
+		border: 1px solid #daf8ee;
+		position: absolute;
+		top: 25px;
+		right: -10px;
+
+		width: 26%;
+		height: 26%;
+
+		background: #003c3c;
+		border-radius: 50%;
+
+		/* z-index: 2; */
+	}
 }
+/* .myring {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 22px;
+	height: 22px;
+	border: 2px solid #daf8ee;
+	border-radius: 100%;
+	transform: translate(-50%, -50%);
+	-webkit-transition-duration: 100ms;
+	transition-duration: 100ms;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+	will-change: width, height, transform, border;
+	z-index: 999;
+	pointer-events: none;
+    @apply animate-pulse;
+} */
+
+#cursor{
+    border-radius: 1000px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #daf8ee;
+    margin: -15px;
+    transition-duration: 150ms;
+    z-index: 10000;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#pointer{
+    border-radius: 1000px;
+    width: 10px;
+    height: 10px;
+    border: 5px solid #dae358;
+    margin: -5px;
+    z-index: 10001;
+    padding: 0;
+    box-sizing: border-box;
+}
+.magnet{
+    border: 3px dotted red;
+    box-shadow: ... ;
+}
+@keyframes cursorClick{
+    from,to{
+        border: 3px solid  #daf8ee;
+        transform: scale(1);
+    }
+    60%{
+        border: 3px solid rgba(244, 67, 54, 0);
+        transform: scale(2);
+    }
+    70%{
+        border: 3px solid rgba(244, 67, 54, 0);
+        transform: scale(1.4);
+    }
+}
+/* 
+.dot {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 8px;
+	height: 8px;
+	background-color: #dae358;
+	border-radius: 100%;
+	transform: translate(-50%, -50%);
+	z-index: 999;
+	pointer-events: none;
+}
+
+.myring.hovered {
+	width: 50px;
+	height: 50px;
+	border-width: 3px;
+	border-color: lightgray;
+}
+
+.dot.hovered {
+	display: none;
+} */
 
 *::selection {
 	background-color: #dae358;
 	color: #195555;
+}
+
+@media (min-width: 640px) {
+	.contain {
+		width: 300px;
+		height: 300px;
+	}
+}
+
+@media (min-width: 768px) {
+	.md\:rot {
+		transform: rotate(-90deg);
+		transform-origin: left top;
+	}
+}
+
+html {
+	overflow: scroll;
+	overflow-x: hidden;
+}
+::-webkit-scrollbar {
+	width: 0; /* Remove scrollbar space */
+	background: transparent; /* Optional: just make scrollbar invisible */
+}
+::-webkit-scrollbar-thumb {
+	background: transparent;
+}
+
+@-webkit-keyframes orbit {
+	from {
+		-webkit-transform: rotate(0deg);
+	}
+
+	to {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@-moz-keyframes orbit {
+	from {
+		-moz-transform: rotate(0deg);
+	}
+
+	to {
+		-moz-transform: rotate(360deg);
+	}
 }

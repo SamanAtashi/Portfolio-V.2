@@ -23,19 +23,19 @@ const Project = (props) => {
 	}
 
 	return (
-		<article className="bg-Secondary text-Primary p-6 my-8 rounded-lg shadow-2xl h-80 font-Montserratss relative flex flex-col justify-between">
+		<article className="bg-Secondary text-Primary p-6 my-8 rounded-lg shadow-2xl h-80 font-Montserratss relative flex flex-col justify-between w-full md:m-0 lg:p-8 lg:px-10">
 			<div>
-				<header className="font-semibold text-2xl">
+				<header className="font-semibold text-2xl lg:text-3xl">
 					{props.name}
 				</header>
-				<div className="w-full border-Primary_Light border-2 my-3.5"></div>
-				<p>{props.desc}</p>
+				<div className="w-full border-Primary_Light border-2 my-3.5 "></div>
+				<p className="lg:text-lg">{props.desc}</p>
 			</div>
 			<div>
 				<ul className="text-Primary_Light font-medium  italic mt-3.5 flex  flex-wrap">
 					{stacks()}
 				</ul>
-				<div className="flex justify-start items-center space-x-3 mt-3.5">
+				<div className="flex justify-start items-center space-x-3 mt-3.5 md:space-x-6 lg:space-x-8 lg:mt-5 ">
 					<a
 						href={props.url}
 						onClick={() =>
@@ -43,7 +43,7 @@ const Project = (props) => {
 						}
 						target="_blank"
 						rel="noreferrer"
-						className="h-9 w-9 p-1 bg-Primary_Light text-Secondary rounded flex justify-center items-center "
+						className="h-9 w-9 md:h-11 md:w-11 lg:h-12 lg:w-12 p-1 bg-Primary_Light text-Secondary rounded flex justify-center items-center  button targetable round hover:text-Primary hover:bg-Tertiary_Light transition duration-500 ease-in-out"
 					>
 						<ExternalLinkIcon />
 					</a>
@@ -54,7 +54,7 @@ const Project = (props) => {
 						}
 						target="_blank"
 						rel="noreferrer"
-						className="h-9 w-9  bg-Primary_Light text-Secondary rounded flex justify-center items-center p-1"
+						className="h-9 w-9 md:h-11 md:w-11 lg:h-12 lg:w-12  bg-Primary_Light text-Secondary rounded flex justify-center items-center p-1 button targetable round hover:text-Primary hover:bg-Tertiary_Light transition duration-500 ease-in-out"
 					>
 						<CodeIcon />
 					</a>
