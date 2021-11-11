@@ -17,7 +17,7 @@ export default function Main() {
 	}, []);
 
 	return (
-		<div className="bg-Primary w-full h-full text-Secondary px-10vw pt-6  pb-10 relative md:px-28 md:py-12 lg:pt-0 lg:px-80 lg:pb-28">
+		<div className="bg-Primary w-full h-full text-Secondary px-10vw pt-6  pb-10 relative md:px-28 md:py-12 lg:pt-0 lg:px-12vw lg:pb-28 xl:px-16vw">
 			{/* <DotRing /> */}
 			<Navbar />
 			<Home />

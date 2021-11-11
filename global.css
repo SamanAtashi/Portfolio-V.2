@@ -150,7 +150,7 @@
 		transform-origin: left top;
 	}
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1024px) {
 	#cursor {
 		border-radius: 1000px;
 		width: 30px;

@@ -13,8 +13,9 @@ const Contact = () => {
 					<div>
 						Email{color(7)}{' '}
 						<a
+							target="_blank"
 							className="hover:text-Tertiary_Light rounded-full button round targetable"
-							href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=milady00126@gmail.com"
+							href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=milady00126@gmail.com" rel="noreferrer"
 						>
 							<span className="highlight">
 								milady00126@gmail{color()}com
@@ -24,22 +25,25 @@ const Contact = () => {
 					<div className="mt-2 lg:text-xl lg:mt-4">
 						On the Internet{color(7)}{' '}
 						<a
+							target="_blank"
 							className="highlight hover:text-Tertiary_Light rounded-full button round targetable"
-							href="https://www.linkedin.com/in/saman-atashi/"
+							href="https://www.linkedin.com/in/saman-atashi/" rel="noreferrer"
 						>
 							LinkedIn
 						</a>{' '}
 						{color(4)}{' '}
 						<a
+							target="_blank"
 							className="highlight hover:text-Tertiary_Light rounded-full button round targetable"
-							href="https://twitter.com/AtashiSaman"
+							href="https://twitter.com/AtashiSaman" rel="noreferrer"
 						>
 							Twitter
 						</a>{' '}
 						{color(4)}{' '}
 						<a
+							target="_blank"
 							className="highlight hover:text-Tertiary_Light rounded-full button round targetable"
-							href="https://github.com/SamanAtashi"
+							href="https://github.com/SamanAtashi" rel="noreferrer"
 						>
 							GitHub
 						</a>

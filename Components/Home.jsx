@@ -11,7 +11,7 @@ const Home = () => {
 					<div className="big hover:bg-Secondary_Light transition duration-700 ease-in-out"></div>
 				</div>
 			</div>
-			<article className="md:w-4/6">
+			<article className="lg:w-4/6">
 				<header className="mb-3.5 sm:text-2xl">
 					Hey{color(1)} I{color(2)}m{' '}
 					<span className="text-Secondary_Light font-semibold">

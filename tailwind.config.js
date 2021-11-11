@@ -50,6 +50,8 @@ module.exports = {
 			padding: {
 				'5%': '5%',
 				'10vw': '10vw',
+				'12vw': '12vw',
+				'16vw': '16vw',
 			},
 			height: {
 				'100vh': '100vh',

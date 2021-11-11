@@ -23,7 +23,7 @@ const Project = (props) => {
 	}
 
 	return (
-		<article className="bg-Secondary text-Primary p-6 my-8 rounded-lg shadow-2xl h-80 font-Montserratss relative flex flex-col justify-between w-full md:m-0 lg:p-8 lg:px-10">
+		<article className="bg-Secondary text-Primary p-6 my-8 rounded-lg shadow-2xl h-80 font-Montserratss relative flex flex-col justify-between w-full md:m-0 lg:py-7 lg:px-9">
 			<div>
 				<header className="font-semibold text-2xl lg:text-3xl">
 					{props.name}
