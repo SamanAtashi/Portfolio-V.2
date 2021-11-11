@@ -1,6 +1,4 @@
 import color from '../Assets/color';
-import { FaArrowDown } from 'react-icons/fa';
-// import resume from '../Assets/Resume/resume.pdf';
 
 const Home = () => {
 	return (
@@ -13,7 +11,7 @@ const Home = () => {
 					<div className="big hover:bg-Secondary_Light transition duration-700 ease-in-out"></div>
 				</div>
 			</div>
-			<article className="w-4/6">
+			<article className="md:w-4/6">
 				<header className="mb-3.5 sm:text-2xl">
 					Hey{color(1)} I{color(2)}m{' '}
 					<span className="text-Secondary_Light font-semibold">
@@ -39,11 +37,7 @@ const Home = () => {
 				</p>
 				<div className="mt-8 -mb-2 flex items-center justify-center ">
 					<button className="animate-pulse   bg-Tertiary hover:bg-Tertiary_Light text-Primary hover:text-Primary_Light font-bold py-2 px-4 rounded-full flex items-center justify-center font-Montserratss transition duration-700 ease-in-out button round targetable">
-						{/* <FaArrowDown className="animate-bounce inline-block w-5 h-5 mx-1" /> */}
-						<a
-							// href={resume}
-							download="SamanAtashi-resume"
-						>
+						<a href="https://docs.google.com/document/d/1Ck2K1ICxGUEMJvEP9YxDFYIofHL8M5XQ5mCXDRnNVbk/export?format=pdf">
 							Resume
 						</a>
 					</button>
