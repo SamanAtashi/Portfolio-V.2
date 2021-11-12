@@ -28,7 +28,7 @@ class Projects extends React.Component {
 				description:
 					'A SPA that Displays, Adds, and Removes books from API.',
 				stack: ['React', 'Redux', 'API', 'TailWind CSS'],
-				url: 'https://github.com/SamanAtashi/BookStore-redux',
+				url: 'https://mybookstorelist.netlify.app/',
 				githubUrl:
 					'https://github.com/SamanAtashi/BookStore-redux',
 			},
